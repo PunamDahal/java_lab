@@ -1,8 +1,4 @@
 
-
-package MultiThreading;
-
-
 public class ThreadDemoImplementsRunnable {
     public static void main(String[] args) {
         AA aa = new AA();     

@@ -1,8 +1,5 @@
 
 
-package MultiThreading;
-
-
 public class ThreadDemoExtendsThread {
     public static void main(String[] args) {
         A obj1 = new A();
@@ -34,7 +31,7 @@ class A extends Thread
   @Override
   public void run()
   {
-      System.out.println("Starting Threaad A.......");  
+      System.out.println("Starting Thread A..");  
       for (int i = 0; i < 100; i++) {
           System.out.println("Thread A : "+ i);
           try {
@@ -73,7 +70,7 @@ class C extends Thread
   @Override
   public void run()
   {
-      System.out.println("Starting Threaad C.......");  
+      System.out.println("Starting Threaad C.");  
       for (int i = 0; i < 100; i++) {
           System.out.println("Thread C : "+ i);
           try {

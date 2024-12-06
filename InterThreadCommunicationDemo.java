@@ -1,8 +1,4 @@
 
-package MultiThreading;
-
-
-
 public class InterThreadCommunicationDemo {
     public static void main(String[] args) {
      
