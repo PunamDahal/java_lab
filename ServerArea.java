@@ -13,6 +13,6 @@ public class ServerArea {
         String breadth = reader.readLine();
         
         double area = Double.parseDouble(length) * Double.parseDouble(breadth);
-        writer.println("Area: " + area);
+        System.out.println("Area: " + area);
     }
 }

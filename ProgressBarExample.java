@@ -13,7 +13,6 @@ public class ProgressBarExample {
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
         
-        // Simulating task
         for (int i = 0; i <= 100; i++) {
             progressBar.setValue(i);
             try {

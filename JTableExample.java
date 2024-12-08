@@ -6,9 +6,9 @@ public class JTableExample {
         
         String[] columns = {"ID", "Name", "Age"};
         Object[][] data = {
-            {1, "John", 25},
-            {2, "Anna", 30},
-            {3, "Mike", 22}
+            {1, "Punam", 25},
+            {2, "Alice", 30},
+            {3, "Jane", 22}
         };
         
         JTable table = new JTable(data, columns);

@@ -3,10 +3,10 @@ import java.sql.*;
 public class CRUDExample {
     public static void main(String[] args) {
         try {
-            Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/mydb", "user", "password");
+            Connection con = DriverManager.getConnection("jdbc:mysql://localhost/mydb", "user", "password");
             
             // Create operation
-            String createQuery = "INSERT INTO students (name, age) VALUES ('John', 22)";
+            String createQuery = "INSERT INTO students (name, age) VALUES ('Punam', 22)";
             Statement stmt = con.createStatement();
             stmt.executeUpdate(createQuery);
             
@@ -18,11 +18,11 @@ public class CRUDExample {
             }
             
             // Update operation
-            String updateQuery = "UPDATE students SET age = 23 WHERE name = 'John'";
+            String updateQuery = "UPDATE students SET age = 23 WHERE name = 'Punam'";
             stmt.executeUpdate(updateQuery);
             
             // Delete operation
-            String deleteQuery = "DELETE FROM students WHERE name = 'John'";
+            String deleteQuery = "DELETE FROM students WHERE name = 'Punam'";
             stmt.executeUpdate(deleteQuery);
             
             con.close();
